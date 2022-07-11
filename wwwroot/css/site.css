@@ -16,3 +16,30 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.nav-menu {
+  padding-left: 20px;
+}
+
+.nav-link:hover {
+  color:blue!important;
+  text-decoration: overline;
+}
+
+.dropdown-item:active {
+  color: #ffffff!important;
+}
+
+.input-search-nav {
+  display: none;
+}
+
+.button-search-nav {
+  color: black;
+  height:40px;
+  border: none;
+}
+
+.nav-social {
+  max-width: min-content;
+}
