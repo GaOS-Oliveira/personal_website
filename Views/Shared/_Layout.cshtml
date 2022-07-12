@@ -23,7 +23,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex">
-                    <ul class="navbar-nav flex-grow-1 nav-menu">
+                    <ul class="navbar-nav flex-grow-1 px-3">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
@@ -51,14 +51,16 @@
                                 asp-action="Privacy">Sobre</a>
                         </li>
                     </ul>
-                    <form id="nav-search" class="form-inline my-2 my-lg-0 input-search-nav">
+                    <form id="nav-search" class="form-inline my-2 my-lg-0 d-none" autofocus>
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     </form>
                 </div>
                 <div class="navbar-collapse collapse d-sm-inline-flex nav-social">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="search-box search-border">
-                            <button type="button" onclick="searchShow();" class="btn btn-outline-primary button-search-nav"><i class="bi bi-search"></i></button>
+                        <li class="search-box search-border px-2">
+                            <button type="submit" onclick="searchShow();"
+                                class="btn btn-outline-primary border-0 h-100 button-search-nav"><i
+                                    class="bi bi-search"></i></button>
                         </li>
                         <div class="vr"></div>
                         <li class="nav-item">

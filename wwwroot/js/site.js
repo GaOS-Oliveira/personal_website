@@ -4,9 +4,12 @@
 // Write your JavaScript code.
 function searchShow() {
     var x = document.getElementById("nav-search");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
+    if (x.classList.contains('d-none')) {
+        x.classList.remove("d-none");
+        x.classList.add("d-block");
+    } 
+    else {
+        x.classList.remove("d-block");
+        x.classList.add("d-none");
     }
 }

@@ -17,10 +17,6 @@ body {
   margin-bottom: 60px;
 }
 
-.nav-menu {
-  padding-left: 20px;
-}
-
 .nav-link:hover {
   color:blue!important;
   text-decoration: overline;
@@ -30,16 +26,23 @@ body {
   color: #ffffff!important;
 }
 
-.input-search-nav {
-  display: none;
-}
-
 .button-search-nav {
   color: black;
-  height:40px;
-  border: none;
 }
 
 .nav-social {
   max-width: min-content;
+}
+
+.avoidwrap {
+  display: inline-block;
+}
+
+.mb-custom-2 {
+  margin-bottom: calc(2em + 31px);
+}
+
+.card-custom-link {
+  position: relative;
+  z-index: 2;
 }
