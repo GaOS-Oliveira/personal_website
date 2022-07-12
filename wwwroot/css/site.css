@@ -46,3 +46,7 @@ body {
   position: relative;
   z-index: 2;
 }
+
+.object-fit-cover {
+  object-fit: cover;
+}
