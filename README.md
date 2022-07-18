@@ -2,3 +2,6 @@
 
 A Website made with ASP.NET.  
 Will be used to training of web development and API development.
+
+What I am doing now:  
+- Implementing CRUD
